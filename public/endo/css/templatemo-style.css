@@ -37,7 +37,7 @@ a:focus {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	text-align: center;
-	height: 800px;
+	height: 600px;
 }
 
 .tm-wrapper-center {
@@ -68,7 +68,7 @@ a:focus {
 }
 
 .tm-section-intro-text {
-	font-size: 2rem;
+	font-size: 3rem;
 	margin-bottom: 4rem;
 	width: 100%;
 }
@@ -92,7 +92,7 @@ a:focus {
 .tm-carousel {
 	max-width: 950px;
     margin: 5rem auto;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     text-align: center;
 }
 
@@ -101,6 +101,7 @@ a:focus {
 	font-size: 2.1rem;
 	font-weight: 300;
 	margin-bottom: 3rem;
+	margin-top: 3rem;
 }
 
 .tm-carousel-item-text {
@@ -111,7 +112,7 @@ a:focus {
 }
 
 .carousel-indicators {
-	bottom: 0;
+	bottom: 0px;
 	margin-bottom: 0;
 }
 
@@ -139,7 +140,7 @@ a:focus {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 .tm-2-col-img {	padding: 0; }
@@ -169,15 +170,16 @@ a:focus {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-left: 8%;
-    padding-right: 8%;
+    /* padding-left: 8%; */
+    /* padding-right: 8%; */
 }
 
 .tm-2-col-text-title {
 	color: #81b4eb;
-    font-size: 1.9rem;
-    font-weight: 300;
-    margin-bottom: 5%;    
+    font-size: 3.7rem;
+    font-weight: 600;
+    /* margin-bottom: 31%; */  
+	text-align: center;  
 }
 
 .tm-2-col-text-description {
@@ -214,8 +216,8 @@ a:focus {
 /* 4. icon and text 4 boxes
 ----------------------------*/
 .tm-section {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .tm-blue-bg-row { background-color: #b9d6f4; }
@@ -322,7 +324,7 @@ hr { width: 65%; }
 .tm-copyright-text {
 	color: #999999;
 	font-size: 1.3rem;
-	padding-top: 3%;
+	/* padding-top: 3%; */
 	padding-bottom: 3%;
 }
 
@@ -339,7 +341,7 @@ hr { width: 65%; }
 
 @media (max-height: 800px) {
 	.tm-section-intro {
-		height: 100vh;
+		height: 70vh;
 		min-height: 480px;
 	}
 }

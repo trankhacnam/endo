@@ -37,6 +37,7 @@ http://www.templatemo.com/tm-484-ocean
                 <section class="tm-section-intro">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="tm-wrapper-center">
+                            <img src="{{ asset('endo/img/logo.png') }}" alt="" class="img-fluid" style="max-width: 200px;">
                             <h1 class="tm-section-intro-title">ENDO QA</h1>
                             <p class="tm-section-intro-text">We put your mind at ease throughout the production of your goods
                             </p>
@@ -52,11 +53,7 @@ http://www.templatemo.com/tm-484-ocean
                     <section>
                         <div id="tmCarousel3" class="carousel slide tm-carousel" data-ride="carousel" style="margin: unset; max-width: unset;"> <!-- If you want to make the carousel auto play, remove data-interval="false" -->
 
-                            <ol class="carousel-indicators">
-                                <li data-target="#tmCarousel3" data-slide-to="0" class=""></li>
-                                <li data-target="#tmCarousel3" data-slide-to="1" class=""></li>
-                                <li data-target="#tmCarousel3" data-slide-to="2" class=""></li>
-                            </ol>
+                         
 
                             <div class="carousel-inner" role="listbox">       
                                <div class="carousel-item active" style="font-display: center;">
@@ -79,9 +76,11 @@ http://www.templatemo.com/tm-484-ocean
                 
                 <section class="tm-2-col-img-text tm-2-col-img-lg-right">
                     
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 tm-2-col-img">                    
-                        <h2 class="tm-2-col-text-title" style="font-size: 2.9rem; font-weight: 600; text-align: center;">ENDO Introduction</h2>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 tm-2-col-img" style="margin: auto;">                    
+                        <h2 class="tm-2-col-text-title" >ENDO INTRODUCTION</h2>
                     </div>
+
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 tm-2-col-text">  
                         <section>
@@ -150,17 +149,19 @@ http://www.templatemo.com/tm-484-ocean
                             </div>                    
                         </section>
                     </div>
-                    
+                    {{-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 col-xl-1 tm-2-col-img" style="margin: auto;">                    
+                    </div> --}}
                 </section>
 
             </div> <!-- row -->
 
             <div class="row">
                 
-                <section class="tm-2-col-img-text tm-2-col-img-lg-left">
-                    
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 tm-2-col-img">                    
-                        <h2 class="tm-2-col-text-title" style="font-size: 2.9rem; font-weight: 600; text-align: center;">ENDO Services</h2>
+                <section class="tm-2-col-img-text tm-2-col-img-lg-left" style="margin-top: 40px;">
+             {{--        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 col-xl-1 tm-2-col-img" style="margin: auto;">                    
+                    </div> --}}
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 tm-2-col-img" style="margin: auto;">                    
+                        <h2 class="tm-2-col-text-title" >ENDO Services</h2>
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 tm-2-col-text"> 
@@ -181,22 +182,6 @@ http://www.templatemo.com/tm-484-ocean
                                     <div class="carousel-item active">
                                         <div class="carousel-content">
                                             <div>
-                                                <img src="{{ asset('endo/img/1.1.png') }}" alt="Image" class="img-fluid">
-                                            </div>
-                                        </div>                               
-                                    </div>
-
-                                    <div class="carousel-item ">
-                                        <div class="carousel-content">
-                                            <div>
-                                                <img src="{{ asset('endo/img/1.2.png') }}" alt="Image" class="img-fluid">
-                                            </div>
-                                        </div>                               
-                                    </div>
-
-                                    <div class="carousel-item ">
-                                        <div class="carousel-content">
-                                            <div>
                                                 <img src="{{ asset('endo/img/1.3.png') }}" alt="Image" class="img-fluid">
                                             </div>
                                         </div>                               
@@ -213,7 +198,7 @@ http://www.templatemo.com/tm-484-ocean
                                     <div class="carousel-item ">
                                         <div class="carousel-content">
                                             <div>
-                                                <img src="{{ asset('endo/img/1.5.png') }}" alt="Image" class="img-fluid">
+                                                <img src="{{ asset('endo/img/1.1.png') }}" alt="Image" class="img-fluid">
                                             </div>
                                         </div>                               
                                     </div>
@@ -222,6 +207,22 @@ http://www.templatemo.com/tm-484-ocean
                                         <div class="carousel-content">
                                             <div>
                                                 <img src="{{ asset('endo/img/1.6.png') }}" alt="Image" class="img-fluid">
+                                            </div>
+                                        </div>                               
+                                    </div>
+
+                                    <div class="carousel-item ">
+                                        <div class="carousel-content">
+                                            <div>
+                                                <img src="{{ asset('endo/img/1.2.png') }}" alt="Image" class="img-fluid">
+                                            </div>
+                                        </div>                               
+                                    </div>
+
+                                    <div class="carousel-item ">
+                                        <div class="carousel-content">
+                                            <div>
+                                                <img src="{{ asset('endo/img/1.5.png') }}" alt="Image" class="img-fluid">
                                             </div>
                                         </div>                               
                                     </div>
@@ -304,7 +305,7 @@ http://www.templatemo.com/tm-484-ocean
 
                     </div>
 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
                         @if(Session::has('success'))
 
                             <div class="alert alert-success">
@@ -333,18 +334,19 @@ http://www.templatemo.com/tm-484-ocean
                         </form> 
                     </div> <!-- col -->
                     
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 tm-contact-right">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 tm-contact-right">
+                        <img src="{{ asset('endo/img/logo.png') }}" alt="" class="img-fluid" style="max-width: 17%;">
                         <h3 class="tm-contact-title">Our Address</h3>
-                        <p class="tm-contact-info">Head office: No. 91 Trinh Cong Son Street, Nhat Tan Ward, Tay Ho District, Hanoi City, Viet Nam <br>
-                        Branch office: Room 515, TNG Village, No. 206 Minh Cau Street, Thai Nguyen City, Thai Nguyen Province, Viet Nam
+                        <p class="tm-contact-info"><i class="fa fa-home" aria-hidden="true"></i> Head office: No. 91 Trinh Cong Son Street, Nhat Tan Ward, Tay Ho District, Hanoi City, Viet Nam <br>
+                        <i class="fa fa-home" aria-hidden="true"></i> Branch office: Room 515, TNG Village, No. 206 Minh Cau Street, Thai Nguyen City, Thai Nguyen Province, Viet Nam
 
                         </p>
                         <p class="tm-contact-info"> 
-                           Email: <a href="mailto:dfeldman@endo.vn">dfeldman@endo.vn</a><br>
+                          <i class="fa fa-envelope" aria-hidden="true"> Email: <a href="mailto:dfeldman@endo.vn"></i> dfeldman@endo.vn</a><br>
                             
                         </p>
                         <p class="tm-contact-info">
-                            Phone: <a href="tel:0100100110"> (+84) 913 514 232</a>
+                           <i class="fa fa-phone-square" aria-hidden="true"></i> Phone: <a href="tel:0100100110"> (+84) 913 514 232</a>
                         </p>
                      {{--    <div class="tm-social-icons-container">
                             (29)<a href="#" class="tm-social-icon-link"><i class="fa fa-facebook tm-social-icon"></i></a>
@@ -359,12 +361,12 @@ http://www.templatemo.com/tm-484-ocean
 
             </div>
 
-            <div class="row">                
+{{--             <div class="row">                
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">                    
                     <hr>
                 </div>
             </div>
-
+ --}}
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <p class="text-xs-center tm-copyright-text">Copyright &copy; endo.vn</p>
@@ -372,7 +374,11 @@ http://www.templatemo.com/tm-484-ocean
             </div>
             
         </div> <!-- container-fluid -->   
-
+        <style type="text/css">
+            body {
+                font-family: "Times New Roman", Times, serif;
+            }
+        </style>
         <!-- load JS files -->
         <script src="{{ asset('endo/js/jquery-1.11.3.min.js') }}"></script>             <!-- jQuery, https://jquery.com/download/ -->
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h -->
